@@ -1,0 +1,128 @@
+./exemplo
+g++ Exemplos.cpp -o exemplo
+./exemplo
+g++ Exemplos.cpp -o exemplo
+./exemplo
+g++ Exemplos.cpp -o exemplo
+./exemplo
+g++ Exemplos.cpp -o exemplo
+./exemplo
+g++ Exemplos.cpp -o exemplo
+./exemplo
+g++ Exemplos.cpp -o exemplo
+./exemplo
+g++ Exemplos.cpp -o exemplo
+./exemplo
+g++ Exemplos.cpp -o exemplo
+./exemplo
+g++ Exemplos.cpp -o exemplo
+./exemplo
+g++ Exemplos.cpp -o exemplo
+./exemplo
+hangups 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+python3 main.py 
+git status
+git add *
+git commit -m "Modularização na comparação de chaves"
+git push origin master
+g++ Banco.cpp -o banco
+./banco
+g++ Banco.cpp -o banco./banco
+g++ Banco.cpp -o banco
+./banco
+g++ Banco.cpp -o banco
+./banco
+g++ Banco.cpp -o banco
+g++ Banco.cpp -o banco
+./banco
+g++ Banco.cpp -o banco
+./banco
+clear
+
+g++ Banco.cpp -o banco
+./banco
+g++ vitor.cpp -o 
+g++ vitor.cpp -o vitor
+./vitor
+g++ vitor.cpp -o vitor
+./vitor
+g++ vitor.cpp -o vitor
+./vitor
+g++ vitor.cpp -o vitor
+./vitor
+g++ vitor.cpp -o vitor
+./vitor
+g++ vitor.cpp -o vitor
+g++ vitor.cpp -o vitor
+g++ vitor.cpp -o vitor
+g++ vitor.cpp -o vitor
+./vitor
+./vitor
+g++ vitor.cpp -o vitor
+./vitor
+g++ vitor.cpp -o vitor
+./vitor
+g++ orientacoes.cpp -o ori
+./ori
+g++ orientacoes.cpp -o ori
+./ori
+g++ orientacoes.cpp -o ori
+./ori
+g++ orientacoes.cpp -o ori
+./ori
+g++ orientacoes.cpp -o ori
+./ori
+g++ vitor.cpp -o vitor
+./vitor
+g++ vitor.cpp -o vitor
+./vitor
+g++ vitor.cpp -o vitor
+./vitor
+g++ vitor.cpp -o vitor
+./vitor
+g++ teste.cpp -o teste
+./teste
+9
+./teste
+g++ teste.cpp -o teste
+./teste
+./teste
+./teste
+./teste
+./teste
+./teste
+./teste
+g++ Monitoria.cpp -o monitoria
+./monitoria 
+g++ Monitoria.cpp -o monitoria
+./monitoria 
+g++ Monitoria.cpp -o monitoria
+g++ Monitoria.cpp -o monitoria
+g++ Monitoria.cpp -o monitoria
+g++ Monitoria.cpp -o monitoria
+./monitoria 
+g++ Monitoria.cpp -o monitoria
+./monitoria 
+g++ Monitoria.cpp -o monitoria
+g++ Monitoria.cpp -o monitoria
+./monitoria 
+./monitoria 
+g++ Monitoria.cpp -o monitoria
+./monitoria 
+g++ Monitoria.cpp -o monitoria
+./monitoria 
+asf
+asf
+g++ CHFLBP.cpp superPixels.cpp program.cpp main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+g++ kalashnikov/comuns.cpp kalashnikov/gridandhist.cpp kalashnikov/tecnicas.cpp CHFLBP.cpp superPixels.cpp program.cpp main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+g++ kalashnikov/comuns.cpp kalashnikov/gridandhist.cpp kalashnikov/tecnicas.cpp CHFLBP.cpp superPixels.cpp program.cpp main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+g++ kalashnikov/comuns.cpp kalashnikov/gridandhist.cpp kalashnikov/tecnicas.cpp CHFLBP.cpp superPixels.cpp program.cpp main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+g++ kalashnikov/comuns.cpp kalashnikov/gridandhist.cpp kalashnikov/tecnicas.cpp CHFLBP.cpp superPixels.cpp program.cpp main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main
