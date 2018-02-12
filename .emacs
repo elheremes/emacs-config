@@ -1,6 +1,4 @@
 (require 'iso-transl)
-										;(require 'use-package)
-										;(setq-default gnutls-available-p nil)
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
@@ -9,7 +7,6 @@
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 (package-initialize)
-
 
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
@@ -95,7 +92,7 @@
  '(org-startup-folded nil)
  '(package-selected-packages
    (quote
-	(dracula-theme magit monokai-theme zeal-at-point highlight-indent-guides company-rtags company-irony company-irony-c-headers company-jedi solarized-theme org-edna org-plus-contrib use-package dash all-the-icons doom-themes hlinum google-this pdf-tools neotree)))
+	(helm-dash dracula-theme magit monokai-theme highlight-indent-guides company-rtags company-irony company-irony-c-headers company-jedi solarized-theme org-edna org-plus-contrib use-package dash all-the-icons doom-themes hlinum google-this pdf-tools neotree)))
  '(python-indent-offset 4)
  '(python-shell-interpreter "python3")
  '(python-shell-virtualenv-root "/home/hermes/.virtualenvs/cv/")
@@ -110,8 +107,10 @@
  '(default ((t (:family "Hack" :foundry "SRC" :slant normal :weight normal :height 98 :width normal))))
  '(spaceline-all-the-icons-sunset-face ((t (:inherit powerline-active2 :background "black" :foreground "black")))))
 
-										;(add-hook 'after-init-hook (lambda () (load-theme 'flatui)))
+;; Removendo página inicial
 (setq inhibit-startup-message t)
+
+;; Número de linhas
 (global-linum-mode t)
 (defun linum-update-window-scale-fix (win)
   "fix linum for scaled text"
@@ -123,7 +122,24 @@
 									  (car (window-margins)) 1)
 								  ))))
 (advice-add #'linum-update-window :after #'linum-update-window-scale-fix)
+(add-hook 'doc-view-mode-hook
+		  (lambda ()
+			(linum-mode -1)))
+(add-hook 'shell-mode-hook
+		  (lambda ()
+			(linum-mode -1)))
+(add-hook 'pdf-view-mode-hook
+		  (lambda ()
+			(linum-mode -1)))
+(add-hook 'xwidget-webkit-mode-hook
+		  (lambda ()
+			(linum-mode -1)))
+(add-hook 'eshell-mode-hook
+		  (lambda ()
+			(linum-mode -1)))
 
+;; PDF-TOOLS
+(pdf-tools-install)
 (defun wenshan-other-docview-buffer-scroll-down ()
   "There are two visible buffers, one for taking notes and one
 for displaying PDF, and the focus is on the notes buffer. This
@@ -142,9 +158,8 @@ command moves the PDF buffer backward."
   (other-window 1))
 (global-set-key (kbd "C-1") 'wenshan-other-docview-buffer-scroll-down)
 (global-set-key (kbd "C-2") 'wenshan-other-docview-buffer-scroll-up)
-(global-set-key (kbd "C-c a") 'org-agenda)
 
-
+;; Xwidget
 (defun my-xwidget-mode-config ()
   "For use in `html-mode-hook'."
   (local-set-key (kbd "<down>") 'xwidget-webkit-scroll-up)
@@ -157,24 +172,13 @@ command moves the PDF buffer backward."
 (add-hook 'xwidget-webkit-mode-hook 'my-xwidget-mode-config)
 
 
-(add-hook 'doc-view-mode-hook
-		  (lambda ()
-			(linum-mode -1)))
-(add-hook 'shell-mode-hook
-		  (lambda ()
-			(linum-mode -1)))
-(add-hook 'pdf-view-mode-hook
-		  (lambda ()
-			(linum-mode -1)))
-(add-hook 'xwidget-webkit-mode-hook
-		  (lambda ()
-			(linum-mode -1)))
-(add-hook 'eshell-mode-hook
-		  (lambda ()
-			(linum-mode -1)))
+(global-set-key (kbd "C-c a") 'org-agenda)
+
+
 
 (global-set-key [f8] 'neotree-toggle)
 
+;; Company
 (require 'company)
 (add-hook 'after-init-hook 'global-company-mode)
 (eval-after-load 'company
@@ -190,14 +194,13 @@ command moves the PDF buffer backward."
     'company-backends '(company-irony-c-headers company-irony)))
 (defun my/python-mode-hook ()
   (add-to-list 'company-backends 'company-jedi))
-
 (add-hook 'python-mode-hook 'my/python-mode-hook)
 (add-hook 'c++-mode-hook 'irony-mode)
 (add-hook 'c-mode-hook 'irony-mode)
 (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
 ;(push '(company-rtags company-keywords) company-backends)
 
-(pdf-tools-install)
+
 
 (scroll-bar-mode -1)
 (electric-pair-mode 1)
@@ -218,9 +221,6 @@ command moves the PDF buffer backward."
 
 (setq browse-url-browser-function 'xwidget-webkit-browse-url)
 
-(setq-default c-default-style "bsd")
-(setq-default c-basic-offset 2)
-(setq-default tab-width 4)
 
 (require 'hlinum)
 (hlinum-activate)
@@ -257,13 +257,20 @@ command moves the PDF buffer backward."
 
 (setq highlight-indent-guides-method 'character)
 
+;; C++
+(setq-default c-default-style "bsd")
+(setq-default c-basic-offset 2)
+(setq-default tab-width 4)
+
 (add-hook 'c++-mode-hook 'highlight-indent-guides-mode)
 
-										; Zeal at the point
-(global-set-key "\C-cd" 'zeal-at-point)
-
-(add-hook 'c++-mode-hook
-   (lambda () (setq zeal-at-point-docset "")))
+;; Helm-dash
+(require 'helm-dash)
+(global-set-key "\C-cd" 'helm-dash-at-point)
+(setq helm-dash-common-docsets (helm-dash-installed-docsets))
 
 ;; Magit
 (global-set-key (kbd "C-x g") 'magit-status)
+
+;; gdb
+(setq gdb-many-windows t)
