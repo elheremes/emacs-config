@@ -1,0 +1,46 @@
+
+;; ----- smex-history -----
+(
+ comment-region
+ uncomment-region
+ view-buffer
+ company-auctex-macros
+ customize-variable
+ replace-string
+ eshell
+)
+
+;; ----- smex-data -----
+(
+ (eshell . 25)
+ (helm-dash . 5)
+ (comment-region . 5)
+ (uncomment-region . 2)
+ (magit-pull . 2)
+ (shell . 6)
+ (replace-string . 6)
+ (text-mode . 5)
+ (tramp-cleanup-all-connections . 2)
+ (xwidget-webkit-browse-url . 3)
+ (google-this . 2)
+ (helm-dash-install-user-docset . 1)
+ (google-this-word . 1)
+ (list-packages . 7)
+ (shell-pop . 1)
+ (package-delete . 1)
+ (query-replace . 1)
+ (org-md-export-as-markdown . 3)
+ (org-mode . 1)
+ (package-install . 1)
+ (google-translate-at-point . 1)
+ (customize-variable . 9)
+ (TeX-mode . 3)
+ (eval-region . 2)
+ (tex-compile . 3)
+ (TeX-auto-generate . 1)
+ (doc-view-mode . 1)
+ (pdf-view-mode . 1)
+ (company-auctex-macros . 3)
+ (view-buffer . 1)
+ (org-latex-export-to-pdf . 1)
+)

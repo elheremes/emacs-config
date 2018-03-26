@@ -12,6 +12,17 @@
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 										;(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
 
+(add-to-list 'initial-frame-alist '(font . "Hack-12"))
+(add-to-list 'default-frame-alist '(font . "Hack-10.5"))
+
+;; (defun adjust-font(frame)
+;;   (with-selected-frame frame
+;; 	(set-frame-font "Hack-10" nil t)))
+
+;; (add-to-list 'after-make-frame-functions 'adjust-font)
+;;(add-to-list 'default-frame-alist '(font . "Hack-11"))
+;;(set-face-attribute 'default nil :height 110)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -21,7 +32,7 @@
  '(battery-update-interval 30)
  '(custom-safe-themes
    (quote
-	("4a7abcca7cfa2ccdf4d7804f1162dd0353ce766b1277e8ee2ac7ee27bfbb408f" "e297f54d0dc0575a9271bb0b64dad2c05cff50b510a518f5144925f627bb5832" "d2c61aa11872e2977a07969f92630a49e30975220a079cd39bec361b773b4eb3" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "a17c68ed6c3feb24eaeb7bb4d69221e0cf3e6a658f1da62c8f8edb90769b7b12" "9f569b5e066dd6ca90b3578ff46659bc09a8764e81adf6265626d7dc0fac2a64" "d507c9e58cb0eb8508e15c8fedc2d4e0b119123fab0546c5fd30cadd3705ac86" "611e38c2deae6dcda8c5ac9dd903a356c5de5b62477469133c89b2785eb7a14d" "b81bfd85aed18e4341dbf4d461ed42d75ec78820a60ce86730fc17fc949389b2" "5900bec889f57284356b8216a68580bfa6ece73a6767dfd60196e56d050619bc" "365d9553de0e0d658af60cff7b8f891ca185a2d7ba3fc6d29aadba69f5194c7f" "15348febfa2266c4def59a08ef2846f6032c0797f001d7b9148f30ace0d08bcf" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a4c9e536d86666d4494ef7f43c84807162d9bd29b0dfd39bdf2c3d845dcc7b2e" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
+	("10e3d04d524c42b71496e6c2e770c8e18b153fcfcc838947094dad8e5aa02cef" "4a7abcca7cfa2ccdf4d7804f1162dd0353ce766b1277e8ee2ac7ee27bfbb408f" "e297f54d0dc0575a9271bb0b64dad2c05cff50b510a518f5144925f627bb5832" "d2c61aa11872e2977a07969f92630a49e30975220a079cd39bec361b773b4eb3" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "a17c68ed6c3feb24eaeb7bb4d69221e0cf3e6a658f1da62c8f8edb90769b7b12" "9f569b5e066dd6ca90b3578ff46659bc09a8764e81adf6265626d7dc0fac2a64" "d507c9e58cb0eb8508e15c8fedc2d4e0b119123fab0546c5fd30cadd3705ac86" "611e38c2deae6dcda8c5ac9dd903a356c5de5b62477469133c89b2785eb7a14d" "b81bfd85aed18e4341dbf4d461ed42d75ec78820a60ce86730fc17fc949389b2" "5900bec889f57284356b8216a68580bfa6ece73a6767dfd60196e56d050619bc" "365d9553de0e0d658af60cff7b8f891ca185a2d7ba3fc6d29aadba69f5194c7f" "15348febfa2266c4def59a08ef2846f6032c0797f001d7b9148f30ace0d08bcf" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a4c9e536d86666d4494ef7f43c84807162d9bd29b0dfd39bdf2c3d845dcc7b2e" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(display-time-24hr-format t)
  '(display-time-day-and-date t)
  '(display-time-default-load-average nil)
@@ -81,6 +92,9 @@
 	   ""))))
  '(elpy-rpc-backend "jedi")
  '(fancy-battery-show-percentage (quote non-nil))
+ '(google-translate-default-source-language "en")
+ '(google-translate-default-target-language "pt")
+ '(google-translate-output-destination nil)
  '(menu-bar-mode nil)
  '(org-babel-load-languages
    (quote
@@ -92,7 +106,7 @@
  '(org-startup-folded nil)
  '(package-selected-packages
    (quote
-	(helm-dash dracula-theme magit monokai-theme highlight-indent-guides company-rtags company-irony company-irony-c-headers company-jedi solarized-theme org-edna org-plus-contrib use-package dash all-the-icons doom-themes hlinum google-this pdf-tools neotree)))
+	(company-bibtex company-auctex auctex google-translate smex helm-dash dracula-theme magit monokai-theme highlight-indent-guides company-rtags company-irony company-irony-c-headers solarized-theme org-edna org-plus-contrib use-package dash all-the-icons doom-themes hlinum google-this pdf-tools neotree)))
  '(python-indent-offset 4)
  '(python-shell-interpreter "python3")
  '(python-shell-virtualenv-root "/home/hermes/.virtualenvs/cv/")
@@ -104,7 +118,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Hack" :foundry "SRC" :slant normal :weight normal :height 98 :width normal))))
+ '(default ((t (:family "Hack" :foundry "SRC" :slant normal :weight normal :height 120 :width normal))))
  '(spaceline-all-the-icons-sunset-face ((t (:inherit powerline-active2 :background "black" :foreground "black")))))
 
 ;; Removendo página inicial
@@ -140,6 +154,10 @@
 
 ;; PDF-TOOLS
 (pdf-tools-install)
+(add-hook 'pdf-view-mode-hook 'auto-revert-mode)
+(setq auto-revert-interval 0.5)
+;;(auto-revert-set-timer)
+
 (defun wenshan-other-docview-buffer-scroll-down ()
   "There are two visible buffers, one for taking notes and one
 for displaying PDF, and the focus is on the notes buffer. This
@@ -181,6 +199,9 @@ command moves the PDF buffer backward."
 ;; Company
 (require 'company)
 (add-hook 'after-init-hook 'global-company-mode)
+
+(company-auctex-init)
+
 (eval-after-load 'company
   '(add-to-list 'company-backends 'company-irony))
 
@@ -194,7 +215,7 @@ command moves the PDF buffer backward."
     'company-backends '(company-irony-c-headers company-irony)))
 (defun my/python-mode-hook ()
   (add-to-list 'company-backends 'company-jedi))
-(add-hook 'python-mode-hook 'my/python-mode-hook)
+;(add-hook 'python-mode-hook 'my/python-mode-hook)
 (add-hook 'c++-mode-hook 'irony-mode)
 (add-hook 'c-mode-hook 'irony-mode)
 (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
@@ -263,6 +284,7 @@ command moves the PDF buffer backward."
 (setq-default tab-width 4)
 
 (add-hook 'c++-mode-hook 'highlight-indent-guides-mode)
+(add-hook 'python-mode-hook 'highlight-indent-guides-mode)
 
 ;; Helm-dash
 (require 'helm-dash)
@@ -274,3 +296,46 @@ command moves the PDF buffer backward."
 
 ;; gdb
 (setq gdb-many-windows t)
+
+;; Tramp
+ (setq tramp-default-method "ssh")
+
+;; smex
+(require 'smex) ; Not needed if you use package.el
+(smex-initialize) ; Can be omitted. This might cause a (minimal) delay
+										; when Smex is auto-initialized on its first run.
+(global-set-key (kbd "M-x") 'smex)
+(global-set-key (kbd "M-X") 'smex-major-mode-commands)
+;; This is your old M-x.
+(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+
+
+;; google-translate
+(require 'google-translate)
+(require 'google-translate-default-ui)
+(global-set-key "\C-ct" 'google-translate-at-point)
+(global-set-key "\C-cT" 'google-translate-query-translate)
+
+
+;;auctex
+(setq TeX-auto-save t)
+(setq TeX-parse-self t)
+
+(setq TeX-PDF-mode t)
+
+;; company auctex
+;; (company-auctex-init)
+
+;; company bibtex
+(add-to-list 'company-backends 'company-bibtex)
+
+(setq company-bibtex-bibliography
+	'("/home/pedropeter/Dropbox/LABMINT/CSBC 2018/sbc-template.bib"))
+
+;; Use pdf-tools to open PDF files
+(setq TeX-view-program-selection '((output-pdf "PDF Tools"))
+      TeX-source-correlate-start-server t)
+
+;; Update PDF buffers after successful LaTeX runs
+(add-hook 'TeX-after-compilation-finished-functions
+           #'TeX-revert-document-buffer)
