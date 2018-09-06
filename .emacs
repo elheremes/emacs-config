@@ -32,7 +32,7 @@
  '(battery-update-interval 30)
  '(custom-safe-themes
    (quote
-	("ff7625ad8aa2615eae96d6b4469fcc7d3d20b2e1ebc63b761a349bebbb9d23cb" "10e3d04d524c42b71496e6c2e770c8e18b153fcfcc838947094dad8e5aa02cef" "4a7abcca7cfa2ccdf4d7804f1162dd0353ce766b1277e8ee2ac7ee27bfbb408f" "e297f54d0dc0575a9271bb0b64dad2c05cff50b510a518f5144925f627bb5832" "d2c61aa11872e2977a07969f92630a49e30975220a079cd39bec361b773b4eb3" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "a17c68ed6c3feb24eaeb7bb4d69221e0cf3e6a658f1da62c8f8edb90769b7b12" "9f569b5e066dd6ca90b3578ff46659bc09a8764e81adf6265626d7dc0fac2a64" "d507c9e58cb0eb8508e15c8fedc2d4e0b119123fab0546c5fd30cadd3705ac86" "611e38c2deae6dcda8c5ac9dd903a356c5de5b62477469133c89b2785eb7a14d" "b81bfd85aed18e4341dbf4d461ed42d75ec78820a60ce86730fc17fc949389b2" "5900bec889f57284356b8216a68580bfa6ece73a6767dfd60196e56d050619bc" "365d9553de0e0d658af60cff7b8f891ca185a2d7ba3fc6d29aadba69f5194c7f" "15348febfa2266c4def59a08ef2846f6032c0797f001d7b9148f30ace0d08bcf" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a4c9e536d86666d4494ef7f43c84807162d9bd29b0dfd39bdf2c3d845dcc7b2e" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
+	("a4df5d4a4c343b2712a8ed16bc1488807cd71b25e3108e648d4a26b02bc990b3" "9d9fda57c476672acd8c6efeb9dc801abea906634575ad2c7688d055878e69d6" "ff7625ad8aa2615eae96d6b4469fcc7d3d20b2e1ebc63b761a349bebbb9d23cb" "10e3d04d524c42b71496e6c2e770c8e18b153fcfcc838947094dad8e5aa02cef" "4a7abcca7cfa2ccdf4d7804f1162dd0353ce766b1277e8ee2ac7ee27bfbb408f" "e297f54d0dc0575a9271bb0b64dad2c05cff50b510a518f5144925f627bb5832" "d2c61aa11872e2977a07969f92630a49e30975220a079cd39bec361b773b4eb3" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "a17c68ed6c3feb24eaeb7bb4d69221e0cf3e6a658f1da62c8f8edb90769b7b12" "9f569b5e066dd6ca90b3578ff46659bc09a8764e81adf6265626d7dc0fac2a64" "d507c9e58cb0eb8508e15c8fedc2d4e0b119123fab0546c5fd30cadd3705ac86" "611e38c2deae6dcda8c5ac9dd903a356c5de5b62477469133c89b2785eb7a14d" "b81bfd85aed18e4341dbf4d461ed42d75ec78820a60ce86730fc17fc949389b2" "5900bec889f57284356b8216a68580bfa6ece73a6767dfd60196e56d050619bc" "365d9553de0e0d658af60cff7b8f891ca185a2d7ba3fc6d29aadba69f5194c7f" "15348febfa2266c4def59a08ef2846f6032c0797f001d7b9148f30ace0d08bcf" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a4c9e536d86666d4494ef7f43c84807162d9bd29b0dfd39bdf2c3d845dcc7b2e" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(display-time-24hr-format t)
  '(display-time-day-and-date t)
  '(display-time-default-load-average nil)
@@ -101,18 +101,22 @@
 	((plantuml . t)
 	 (emacs-lisp . t)
 	 (C . t)
-	 (ditaa . t))))
+	 (ditaa . t)
+	 (python . t))))
  '(org-plantuml-jar-path "/home/hermes/.emacs.d/elpa/contrib/scripts/plantuml.jar")
  '(org-startup-folded nil)
  '(org-support-shift-select t)
  '(package-selected-packages
    (quote
-	(company-bibtex company-auctex auctex google-translate smex helm-dash dracula-theme magit monokai-theme highlight-indent-guides company-rtags company-irony company-irony-c-headers solarized-theme org-edna org-plus-contrib use-package dash all-the-icons doom-themes hlinum google-this pdf-tools neotree)))
+	(shell-pop company-bibtex company-auctex auctex google-translate smex helm-dash dracula-theme magit monokai-theme highlight-indent-guides company-rtags company-irony company-irony-c-headers solarized-theme org-edna org-plus-contrib use-package dash all-the-icons doom-themes hlinum google-this pdf-tools neotree)))
  '(python-indent-offset 4)
  '(python-shell-interpreter "python3")
  '(python-shell-virtualenv-root "/home/hermes/.virtualenvs/cv/")
+ '(shell-pop-universal-key "C-'")
+ '(shell-pop-window-size 100)
  '(spaceline-all-the-icons-separator-type (quote slant))
  '(spaceline-all-the-icons-slim-render nil)
+ '(tab-width 6)
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -340,6 +344,8 @@ command moves the PDF buffer backward."
 (global-set-key "\C-ct" 'google-translate-at-point)
 (global-set-key "\C-cT" 'google-translate-query-translate)
 
+(global-set-key "\C-cs" 'flyspell-correct-word-before-point)
+
 
 ;;auctex
 (setq TeX-auto-save t)
@@ -354,7 +360,7 @@ command moves the PDF buffer backward."
 (add-to-list 'company-backends 'company-bibtex)
 
 (setq company-bibtex-bibliography
-	'("/home/pedropeter/Dropbox/LABMINT/CSBC 2018/sbc-template.bib"))
+	'("/home/pedropeter/Dropbox/LABMINT/Relatório/latex_relatorio/referencias.bib"))
 
 ;; Use pdf-tools to open PDF files
 (setq TeX-view-program-selection '((output-pdf "PDF Tools"))
@@ -363,3 +369,6 @@ command moves the PDF buffer backward."
 ;; Update PDF buffers after successful LaTeX runs
 (add-hook 'TeX-after-compilation-finished-functions
            #'TeX-revert-document-buffer)
+
+;; shell-popq
+(push (cons "\\*shell\\*" display-buffer--same-window-action) display-buffer-alist)
