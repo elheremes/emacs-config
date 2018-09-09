@@ -1,0 +1,128 @@
+cd ..
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt none 40 10 30
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt none 40 8 30
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt 40 none 10 30
+ls
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt 40 lbp 8 30
+rm features/IMD*
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt 10 lbp 8 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main paths.txt targetsUnite.txt codebook.txt 40 lbp 6 36
+./main paths.txt targetsUnite.txt codebook.txt 40 lbp 6 36
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+cd ..
+cd ..
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt lbp 40 10 30
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt 40 lbp 10 30
+cd ..
+rm features/IM*
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt 40 lbp 10 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main paths.txt targetsUnite.txt codebook.txt 55 lbp 15 45
+exit
+exit
+cd ..
+cd features/
+ls
+rm IMD*
+ls
+cd ..
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt 60 lbp 15 45
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt 60 lbp 15 45
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt 60 lbp 15 45
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt 60 lbp 15 45
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main paths.txt targetsUnite.txt codebook.txt 70 lbp 10 40
+./main paths.txt targetsUnite.txt codebook.txt 70 clbp 10 40
+quit
+exit
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 15 45
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 10 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+rm features/00000*
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+rm features/00000*
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 80
+rm features/00000*
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main paths.txt targetsUnite.txt codebook.txt 20 lqp 12 36
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+clear
+
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+exit
+cd ..
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 60 lbp 8 30
+rm features/000*
+rm features/00*
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 40 lbp 10 40
+rm features/000*
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 40 lbp 10 40
+rm features/0*
+rm features/*
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 40 lbp 10 40
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathISIC.txt  targetsISIC.txt codebookISIC.txt 40 lbp 10 40
+cd ..
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanoma.txt 40 lbp 10 40
+cd ..
+cd ..
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanomaNew.txt 45 clbp 8 36 --minMax
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanomaNew.txt 64 clbp 10 40
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+cd ..
+g++ src/kalashnikov/comuns.cpp src/kalashnikov/gridandhist.cpp src/kalashnikov/tecnicas.cpp src/CHFLBP.cpp src/I_CHFLBP.cpp src/superPixels.cpp src/program.cpp src/main.cpp -o main -std=c++11     -I /usr/include/opencv2     -L /usr/lib     -lopencv_core     -lopencv_imgproc     -lopencv_imgcodecs     -lopencv_highgui    -lopencv_ml    -lopencv_ximgproc
+./main pathsMelanoma.txt codebookMelanomaNew.txt 50 none 10 50
+./main pathsMelanoma.txt codebookMelanomaNew.txt 50 none 10 50
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanomaNew.txt 50 none 10 50
+rm features/IMD*
+cd features/
+ls
+cd ..
+./main pathsMelanoma.txt targetsUniteMelanoma.txt codebookMelanomaNew.txt 50 lbp 10 50

@@ -13,7 +13,7 @@
 										;(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
 
 (add-to-list 'initial-frame-alist '(font . "Hack-12"))
-;(add-to-list 'default-frame-alist '(font . "Hack-10.5"))
+(add-to-list 'default-frame-alist '(font . "Hack-10.5"))
 
 ;; (defun adjust-font(frame)
 ;;   (with-selected-frame frame
@@ -32,7 +32,11 @@
  '(battery-update-interval 30)
  '(custom-safe-themes
    (quote
+<<<<<<< HEAD
 	("a4df5d4a4c343b2712a8ed16bc1488807cd71b25e3108e648d4a26b02bc990b3" "9d9fda57c476672acd8c6efeb9dc801abea906634575ad2c7688d055878e69d6" "ff7625ad8aa2615eae96d6b4469fcc7d3d20b2e1ebc63b761a349bebbb9d23cb" "10e3d04d524c42b71496e6c2e770c8e18b153fcfcc838947094dad8e5aa02cef" "4a7abcca7cfa2ccdf4d7804f1162dd0353ce766b1277e8ee2ac7ee27bfbb408f" "e297f54d0dc0575a9271bb0b64dad2c05cff50b510a518f5144925f627bb5832" "d2c61aa11872e2977a07969f92630a49e30975220a079cd39bec361b773b4eb3" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "a17c68ed6c3feb24eaeb7bb4d69221e0cf3e6a658f1da62c8f8edb90769b7b12" "9f569b5e066dd6ca90b3578ff46659bc09a8764e81adf6265626d7dc0fac2a64" "d507c9e58cb0eb8508e15c8fedc2d4e0b119123fab0546c5fd30cadd3705ac86" "611e38c2deae6dcda8c5ac9dd903a356c5de5b62477469133c89b2785eb7a14d" "b81bfd85aed18e4341dbf4d461ed42d75ec78820a60ce86730fc17fc949389b2" "5900bec889f57284356b8216a68580bfa6ece73a6767dfd60196e56d050619bc" "365d9553de0e0d658af60cff7b8f891ca185a2d7ba3fc6d29aadba69f5194c7f" "15348febfa2266c4def59a08ef2846f6032c0797f001d7b9148f30ace0d08bcf" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a4c9e536d86666d4494ef7f43c84807162d9bd29b0dfd39bdf2c3d845dcc7b2e" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
+=======
+	("10e3d04d524c42b71496e6c2e770c8e18b153fcfcc838947094dad8e5aa02cef" "4a7abcca7cfa2ccdf4d7804f1162dd0353ce766b1277e8ee2ac7ee27bfbb408f" "e297f54d0dc0575a9271bb0b64dad2c05cff50b510a518f5144925f627bb5832" "d2c61aa11872e2977a07969f92630a49e30975220a079cd39bec361b773b4eb3" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "a17c68ed6c3feb24eaeb7bb4d69221e0cf3e6a658f1da62c8f8edb90769b7b12" "9f569b5e066dd6ca90b3578ff46659bc09a8764e81adf6265626d7dc0fac2a64" "d507c9e58cb0eb8508e15c8fedc2d4e0b119123fab0546c5fd30cadd3705ac86" "611e38c2deae6dcda8c5ac9dd903a356c5de5b62477469133c89b2785eb7a14d" "b81bfd85aed18e4341dbf4d461ed42d75ec78820a60ce86730fc17fc949389b2" "5900bec889f57284356b8216a68580bfa6ece73a6767dfd60196e56d050619bc" "365d9553de0e0d658af60cff7b8f891ca185a2d7ba3fc6d29aadba69f5194c7f" "15348febfa2266c4def59a08ef2846f6032c0797f001d7b9148f30ace0d08bcf" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a4c9e536d86666d4494ef7f43c84807162d9bd29b0dfd39bdf2c3d845dcc7b2e" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
+>>>>>>> parent of 4596099... Changed to labmint pc config
  '(display-time-24hr-format t)
  '(display-time-day-and-date t)
  '(display-time-default-load-average nil)
@@ -105,7 +109,6 @@
 	 (python . t))))
  '(org-plantuml-jar-path "/home/hermes/.emacs.d/elpa/contrib/scripts/plantuml.jar")
  '(org-startup-folded nil)
- '(org-support-shift-select t)
  '(package-selected-packages
    (quote
 	(shell-pop company-bibtex company-auctex auctex google-translate smex helm-dash dracula-theme magit monokai-theme highlight-indent-guides company-rtags company-irony company-irony-c-headers solarized-theme org-edna org-plus-contrib use-package dash all-the-icons doom-themes hlinum google-this pdf-tools neotree)))
@@ -179,31 +182,8 @@ command moves the PDF buffer backward."
   (other-window 1)
   (pdf-view-scroll-down-or-previous-page)
   (other-window 1))
-
-(defun wenshan-otherframe-docview-buffer-scroll-down ()
-  "There are two visible buffers, one for taking notes and one
-for displaying PDF, and the focus is on the notes buffer. This
-command moves the PDF buffer forward."
-  (interactive)
-  (other-frame 1)
-  (pdf-view-scroll-up-or-next-page)
-  (other-frame 1))
-(defun wenshan-otherframe-docview-buffer-scroll-up ()
-  "There are two visible buffers, one for taking notes and one
-for displaying PDF, and the focus is on the notes buffer. This
-command moves the PDF buffer backward."
-  (interactive)
-  (other-frame 1)
-  (pdf-view-scroll-down-or-previous-page)
-  (other-frame 1))
-
-
-
 (global-set-key (kbd "C-1") 'wenshan-other-docview-buffer-scroll-down)
 (global-set-key (kbd "C-2") 'wenshan-other-docview-buffer-scroll-up)
-(global-set-key (kbd "C-c 1") 'wenshan-otherframe-docview-buffer-scroll-down)
-(global-set-key (kbd "C-c 2") 'wenshan-otherframe-docview-buffer-scroll-up)
-
 
 ;; Xwidget
 (defun my-xwidget-mode-config ()
