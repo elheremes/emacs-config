@@ -1,41 +1,41 @@
 
 ;; ----- smex-history -----
 (
- list-packages
- pdf-view-shrink
- eval-defun
+ TeX-error-overview
+ org-latex-export-as-latex
  eval-region
- comment-region
- uncomment-region
- text-mode
+ list-packages
+ pdf-tools-install
+ customize-variable
+ eshell
 )
 
 ;; ----- smex-data -----
 (
- (eshell . 25)
+ (eshell . 28)
  (helm-dash . 6)
- (comment-region . 12)
+ (comment-region . 14)
  (uncomment-region . 6)
  (magit-pull . 2)
  (shell . 6)
  (replace-string . 7)
  (text-mode . 6)
  (tramp-cleanup-all-connections . 2)
- (xwidget-webkit-browse-url . 3)
+ (xwidget-webkit-browse-url . 4)
  (google-this . 2)
  (helm-dash-install-user-docset . 1)
  (google-this-word . 1)
- (list-packages . 15)
+ (list-packages . 23)
  (shell-pop . 1)
  (package-delete . 1)
  (query-replace . 4)
  (org-md-export-as-markdown . 3)
  (org-mode . 1)
- (package-install . 1)
+ (package-install . 2)
  (google-translate-at-point . 1)
- (customize-variable . 13)
+ (customize-variable . 17)
  (TeX-mode . 3)
- (eval-region . 11)
+ (eval-region . 19)
  (tex-compile . 3)
  (TeX-auto-generate . 1)
  (doc-view-mode . 1)
@@ -43,11 +43,14 @@
  (company-auctex-macros . 3)
  (view-buffer . 1)
  (org-latex-export-to-pdf . 1)
- (helm-dash-install-docset . 1)
+ (helm-dash-install-docset . 2)
  (pdf-view-fit-page-to-window . 1)
  (pdf-view-fit-width-to-window . 1)
- (irony-install-server . 3)
+ (irony-install-server . 5)
  (eval-defun . 6)
- (org-latex-export-as-latex . 1)
- (pdf-view-shrink . 1)
+ (org-latex-export-as-latex . 4)
+ (pdf-view-shrink . 5)
+ (ls-lisp--dired . 1)
+ (pdf-tools-install . 2)
+ (TeX-error-overview . 1)
 )
