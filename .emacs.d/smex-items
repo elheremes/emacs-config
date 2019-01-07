@@ -1,41 +1,41 @@
 
 ;; ----- smex-history -----
 (
- TeX-error-overview
- org-latex-export-as-latex
- eval-region
- list-packages
- pdf-tools-install
- customize-variable
- eshell
+ uncomment-region
+ comment-region
+ query-replace
+ pyvenv-workon
+ xwidget-webkit-browse-url
+ text-mode
+ org-table-convert-region
 )
 
 ;; ----- smex-data -----
 (
- (eshell . 28)
- (helm-dash . 6)
- (comment-region . 14)
- (uncomment-region . 6)
+ (eshell . 29)
+ (helm-dash . 7)
+ (comment-region . 36)
+ (uncomment-region . 29)
  (magit-pull . 2)
- (shell . 6)
+ (shell . 16)
  (replace-string . 7)
- (text-mode . 6)
+ (text-mode . 13)
  (tramp-cleanup-all-connections . 2)
- (xwidget-webkit-browse-url . 4)
- (google-this . 2)
- (helm-dash-install-user-docset . 1)
+ (xwidget-webkit-browse-url . 6)
+ (google-this . 11)
+ (helm-dash-install-user-docset . 3)
  (google-this-word . 1)
- (list-packages . 23)
+ (list-packages . 27)
  (shell-pop . 1)
  (package-delete . 1)
- (query-replace . 4)
+ (query-replace . 31)
  (org-md-export-as-markdown . 3)
- (org-mode . 1)
- (package-install . 2)
+ (org-mode . 3)
+ (package-install . 4)
  (google-translate-at-point . 1)
  (customize-variable . 17)
  (TeX-mode . 3)
- (eval-region . 19)
+ (eval-region . 26)
  (tex-compile . 3)
  (TeX-auto-generate . 1)
  (doc-view-mode . 1)
@@ -43,14 +43,32 @@
  (company-auctex-macros . 3)
  (view-buffer . 1)
  (org-latex-export-to-pdf . 1)
- (helm-dash-install-docset . 2)
- (pdf-view-fit-page-to-window . 1)
- (pdf-view-fit-width-to-window . 1)
- (irony-install-server . 5)
+ (helm-dash-install-docset . 5)
+ (pdf-view-fit-page-to-window . 2)
+ (pdf-view-fit-width-to-window . 3)
+ (irony-install-server . 8)
  (eval-defun . 6)
- (org-latex-export-as-latex . 4)
- (pdf-view-shrink . 5)
+ (org-latex-export-as-latex . 20)
+ (pdf-view-shrink . 9)
  (ls-lisp--dired . 1)
  (pdf-tools-install . 2)
- (TeX-error-overview . 1)
+ (TeX-error-overview . 7)
+ (org-trello-install-key-and-token . 2)
+ (org-trello-install-board-metadata . 2)
+ (org-trello-create-board-and-install-metadata . 1)
+ (org-trello-sync-buffer . 1)
+ (google-this-search . 4)
+ (elpy-enable . 1)
+ (pyvenv-workon . 14)
+ (comment-box . 1)
+ (recover-this-file . 1)
+ (neotree . 1)
+ (org-table-convert-region . 11)
+ (revert-buffer . 2)
+ (xwidget-webkit-current-url . 1)
+ (toggle-word-wrap . 1)
+ (all-the-icons-install-fonts . 1)
+ (count-matches . 5)
+ (package-autoremove . 1)
+ (count-lines-page . 3)
 )

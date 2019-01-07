@@ -1,6 +1,6 @@
 (require 'iso-transl)
 
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
+;;(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
@@ -13,7 +13,7 @@
 										;(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
 
 (add-to-list 'initial-frame-alist '(font . "Hack-11"))
-;(add-to-list 'default-frame-alist '(font . "Hack-11"))
+;;(add-to-list 'default-frame-alist '(font . "Hack-12"))
 
 ;; (defun adjust-font(frame)
 ;;   (with-selected-frame frame
@@ -106,9 +106,10 @@
  '(org-plantuml-jar-path "/home/hermes/.emacs.d/elpa/contrib/scripts/plantuml.jar")
  '(org-startup-folded nil)
  '(org-support-shift-select t)
+ '(org-trello-current-prefix-keybinding "C-c o" nil (org-trello))
  '(package-selected-packages
    (quote
-	(doom-modeline py-autopep8 flycheck elpy shell-pop company-bibtex company-auctex auctex google-translate smex helm-dash dracula-theme magit monokai-theme highlight-indent-guides company-rtags company-irony company-irony-c-headers solarized-theme org-edna org-plus-contrib use-package dash all-the-icons doom-themes hlinum google-this pdf-tools neotree)))
+	(virtualenv org-trello doom-modeline py-autopep8 flycheck elpy shell-pop company-bibtex company-auctex auctex google-translate smex helm-dash dracula-theme magit monokai-theme highlight-indent-guides company-rtags company-irony company-irony-c-headers solarized-theme org-edna org-plus-contrib use-package dash all-the-icons doom-themes hlinum google-this pdf-tools neotree)))
  '(python-indent-offset 4)
  '(python-shell-interpreter "python3")
  '(python-shell-virtualenv-root "/home/hermes/.virtualenvs/cv/")
@@ -197,8 +198,8 @@ command moves the PDF buffer backward."
   (other-frame 1))
 
 
-(global-set-key (kbd "C-1") 'wenshan-other-docview-buffer-scroll-down)
-(global-set-key (kbd "C-2") 'wenshan-other-docview-buffer-scroll-up)
+(global-set-key (kbd "C-1") 'wenshan-otherf-docview-buffer-scroll-down)
+(global-set-key (kbd "C-2") 'wenshan-otherf-docview-buffer-scroll-up)
 
 (global-set-key (kbd "C-c 1") 'wenshan-otherf-docview-buffer-scroll-down)
 (global-set-key (kbd "C-c 2") 'wenshan-otherf-docview-buffer-scroll-up)
@@ -223,6 +224,10 @@ command moves the PDF buffer backward."
 
 
 (global-set-key [f8] 'neotree-toggle)
+
+
+;; org-trello
+(require 'org-trello)
 
 ;; Company
 (require 'company)
@@ -405,3 +410,9 @@ command moves the PDF buffer backward."
 
 ;;
 (setq default-directory "~/");;C:\\Users\\Pedro Thiago\\")
+
+;; Elpy
+
+;; Doom-modeline
+(require 'doom-modeline)
+(doom-modeline-init)
