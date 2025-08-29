@@ -1,2 +1,0 @@
-;;; -*- no-byte-compile: t -*-
-(define-package "rtags" "20181205.1639" "A front-end for rtags" 'nil :commit "15d10815b19ed84f78baf9c4ff91c604d9145153" :authors '(("Jan Erik Hanssen" . "jhanssen@gmail.com") ("Anders Bakken" . "agbakken@gmail.com")) :maintainer '("Jan Erik Hanssen" . "jhanssen@gmail.com") :url "http://rtags.net")
